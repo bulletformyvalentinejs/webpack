@@ -1,0 +1,19 @@
+{
+  "name": "webpack-build",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Vadim Ivanov",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "prod": "webpack --config=./scripts/webpack/config/webpack.prod.js",
+    "dev": "webpack --config=./scripts/webpack/config/webpack.dev.js"
+  },
+  "devDependencies": {
+    "app-root-path": "^3.0.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
+  }
+}
